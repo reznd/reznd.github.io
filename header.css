@@ -28,6 +28,12 @@ html {
   display: block;
 }
 
+.header-menu a:hover{
+  color: #007bc0;
+}
+
+
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;
