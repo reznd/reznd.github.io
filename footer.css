@@ -81,6 +81,16 @@ grid-column: 2;
     bottom: -35px;
 }
 
+.footer-contato .contato-github::before{
+    display: block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url(./imagens/ICONE-GitHub.svg) no-repeat center center;
+    position: relative;
+    left: -35px;
+    bottom: -38px;
+}
 
 .footer-contato .contato-linkedin::before{
     display: block;
