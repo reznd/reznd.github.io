@@ -7,10 +7,9 @@
     padding: 120px 20px 60px 20px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 100px;
     align-items: center;
-
 }
 
 .footer-texto{
@@ -28,8 +27,6 @@
     line-height: 1.1;
     color: #fff;
     margin-bottom: 30px;
-    
-
 }
 
 .footer .subtitulo {
@@ -129,20 +126,61 @@ grid-column: 2;
     color: #007bc0;
 }
 
-
-
-@media(max-width:800px){
+@media(max-width: 800px){
     .footer .subtitulo{
-    display: none;
+        display: none;
+        }
 
-    }
     .footer-container{
-        grid-template-columns: 1fr;
+        max-width: auto;
+        padding: 80px 20px 60px 20px;
+        margin: 0 auto;
+        grid-template-columns: 1fr !important;
         gap: 20px;
-}
+        align-items: center;
+    }
 
-.footer-contato li{
-    font-size: 1.5rem;
-}
-}
 
+    .footer-contato li{
+        font-weight: bold;
+        font-size: 1.25rem;
+        line-height: 1;
+        color: #fff;
+        margin-bottom: 5px;
+        grid-column: 2/3;
+    }
+
+    .footer-texto{
+            font-size: 1.2rem;
+            line-height: 1.1;
+            color: #fff;
+            grid-column: 1/3;
+    }
+
+    .footer-contato .contato-dribble::before
+    {
+        bottom: -25px;
+    }
+
+    .footer-contato .contato-github::before
+    {
+        bottom: -25px;
+    }
+
+    .footer-contato .contato-instagram::before
+    {
+        bottom: -28px;
+    }
+
+    .footer-contato .contato-linkedin::before
+    {
+        bottom: -28px;
+    }
+
+    .footer-contato .contato-email::before
+    {
+        bottom: -28px;
+    }
+
+
+}
