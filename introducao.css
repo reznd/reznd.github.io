@@ -51,9 +51,28 @@
   .introducao {
     grid-template-columns: 1fr;
     align-items: center;
-    background-color: rgb(219, 242, 255);
+    justify-items: center;
+    padding: 20px;
+    gap: 20px;
+    background: rgb(246, 255, 255);
   }
   .introducao img {
-    display: none;
+    width: 150px;
+    height: 150px;
   }
+
+  .introducao h1{
+    margin: 0px;
+  }
+  .introducao::after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 20px;
+    background: url(./imagens/detalhe.svg) no-repeat center center;
+    position: relative;
+    top: 20px;
+  }
+
 }
+

@@ -8,6 +8,24 @@
   position: relative;
 }
 
+.traducao .flags-icon-us img{
+  width: 30px;
+  height: 30px;
+  }
+
+.traducao .flags-icon-br img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.traducao{
+display: flex;
+gap: 10px;
+justify-content: flex-end;
+margin-right: 20px;
+/*margin-top:10px ;*/
+}
 
 html {
   scroll-behavior: smooth;
@@ -57,14 +75,13 @@ html {
   }
 }
 
-
 .to-top {
-  background: #007bc0;
+  background: #80d0ff;
   position: fixed;
   bottom: 16px;
-  right:32px;
-  width:50px;
-  height:50px;
+  right:22px;
+  width: 40px;
+  height:40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -75,6 +92,7 @@ html {
   opacity:0;
   pointer-events: none;
   transition: all .4s;
+  z-index:1;
 }
 
 .to-top.active {
