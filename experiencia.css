@@ -41,6 +41,18 @@
   margin-bottom: 20px;
   position: relative;
 }
+
+.empresa:hover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 10px 20px;
+  background: #eaf7ff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  size: 50%;
+}
 .empresa::before {
   content: "";
   position: absolute;

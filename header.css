@@ -8,6 +8,7 @@
   position: relative;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -26,6 +27,16 @@ html {
   text-decoration: none;
   color: #141414;
   display: block;
+}
+
+.header-menu .btn{
+  background: #4ebcfc;
+  border-radius: 10px;
+  color: #000;
+}
+
+.header-menu .btn:hover{
+  color: #ffffff;
 }
 
 .header-menu a:hover{
@@ -48,7 +59,7 @@ html {
 
 
 .to-top {
-  background: rgb(255, 255, 255);
+  background: #007bc0;
   position: fixed;
   bottom: 16px;
   right:32px;
@@ -59,7 +70,7 @@ html {
   align-items: center;
   justify-content: center;
   font-size:1.25rem;
-  color:#000000;
+  color:#ffffff;
   text-decoration: none;
   opacity:0;
   pointer-events: none;
