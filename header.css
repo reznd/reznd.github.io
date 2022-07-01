@@ -36,6 +36,7 @@ html {
   gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .header-menu a {
