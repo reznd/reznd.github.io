@@ -74,6 +74,10 @@ html {
     background: #f5f5f5;
     border-radius: 5px;
   }
+
+  .header a.btn-download {
+    background: none;
+  }
 }
 
 .to-top {
